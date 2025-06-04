@@ -163,7 +163,7 @@ function checkAnswer(currentLevel) {
       $("body").removeClass("game-over");
     }, 200);
     // 9.3: Change the h1 title to say "Game Over, Press Any Key to Restart" if the user got the answer wrong.
-    $("#level-title").text("Game Over, Press Any Key to Restart");
+    $("#level-title").text("Game Over, Press Any Key or Tap to Restart");
     startOver();
     
   }
