@@ -121,7 +121,7 @@ function animatePress(currentColour) {
 var isGameStarted = false;
 // 7.2: Create a new variable called level and start at level 0.
 var level = 0;
-$(document).keypress(function () {
+$(document).on("keypress touchstart", function () {
   if (!isGameStarted) {
     // 7.3: The h1 title starts out saying "Press A Key to Start", when the game has started, change this
     // to say "Level 0".
