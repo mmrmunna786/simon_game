@@ -64,7 +64,7 @@ footer{
   font-size: 1.5rem;
 }
 
-@media (min-width: 430px) {
+@media (pointer: coarse) {
   .btn {
     margin: 25px;
     margin-top: 0px;
@@ -73,15 +73,15 @@ footer{
     width: 300px;
     border: 10px solid black;
     border-radius: 20%;
-    
   }
-  body{
-    margin-top: 550px
+
+  body {
+    margin-top: 550px;
   }
+
   .container {
     display: block;
     width: 100%;
     margin: auto;
-  
   }
 }
