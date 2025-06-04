@@ -69,9 +69,19 @@ footer{
     margin: 25px;
     margin-top: 0px;
     display: inline-block;
-    height: 165px;
-    width: 165px;
+    height: 300px;
+    width: 300px;
     border: 10px solid black;
     border-radius: 20%;
+    
+  }
+  body{
+    margin-top: 550px
+  }
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  
   }
 }
